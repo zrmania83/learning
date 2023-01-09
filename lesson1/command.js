@@ -1,0 +1,1 @@
+console.log(`Result for 25 + 5 = 30`);
