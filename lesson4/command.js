@@ -13,5 +13,6 @@ for (var b = 500; b > 395; b-=5) {
     const ReverseString = str => [...str].reverse().join('');
    console.log(ReverseString(name))  
 
-const Console = new console.Console(fs.createWriteStream('work.txt'));
-Console.log((a),(b), ReverseString(name));
+
+
+fs.writeFileSync('work.txt', ReverseString(name));
